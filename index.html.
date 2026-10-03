@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>birthday-for-ilyancito</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        background: #0d1117;
+        color: #e6edf3;
+        font-family: Arial, sans-serif;
+    }
+
+    .top {
+        background: #010409;
+        padding: 18px 25px;
+        border-bottom: 1px solid #30363d;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .github {
+        color: #f0f6fc;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 35px auto;
+        padding: 0 20px;
+    }
+
+    .repo {
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+
+    .repo span {
+        color: #58a6ff;
+    }
+
+    .description {
+        color: #8b949e;
+        margin-bottom: 25px;
+    }
+
+    .buttons {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    button, .song {
+        background: #21262d;
+        color: #e6edf3;
+        border: 1px solid #30363d;
+        border-radius: 7px;
+        padding: 9px 16px;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    button:hover, .song:hover {
+        background: #30363d;
+    }
+
+    .readme {
+        border: 1px solid #30363d;
+        border-radius: 7px;
+        overflow: hidden;
+        background: #0d1117;
+    }
+
+    .readme-title {
+        background: #161b22;
+        padding: 12px 18px;
+        border-bottom: 1px solid #30363d;
+        font-weight: bold;
+    }
+
+    .content {
+        padding: 35px;
+        line-height: 1.8;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        text-align: center;
+        color: #8b949e;
+        margin-bottom: 35px;
+    }
+
+    .heart {
+        text-align: center;
+        font-size: 45px;
+        margin: 20px;
+    }
+
+    .letter {
+        font-size: 17px;
+        color: #d0d7de;
+    }
+
+    .music {
+        margin: 35px 0;
+        padding: 20px;
+        border: 1px solid #30363d;
+        border-radius: 10px;
+        text-align: center;
+        background: #161b22;
+    }
+
+    .music h2 {
+        margin-top: 0;
+    }
+
+    .secret {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .secret-message {
+        display: none;
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        background: #161b22;
+        border: 1px solid #30363d;
+        color: #ff7b72;
+        font-size: 20px;
+    }
+
+    .footer {
+        text-align: center;
+        color: #8b949e;
+        margin: 35px 0;
+        font-size: 14px;
+    }
+
+    @media(max-width:600px) {
+        .content {
+            padding: 22px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        .letter {
+            font-size: 16px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="top">
+    <span class="github">♥ birthday-project</span>
+</div>
+
+<div class="container">
+
+    <div class="repo">
+        <span>ilyancito</span> / birthday-for-you
+    </div>
+
+    <div class="description">
+        Un pequeño proyecto hecho especialmente para ti. 🖤
+    </div>
+
+    <div class="buttons">
+        <button>⭐ Star</button>
+        <button>💗 Made with love</button>
+        <button>🎸 Rock mode</button>
+    </div>
+
+    <div class="readme">
+
+        <div class="readme-title">
+            README.md
+        </div>
+
+        <div class="content">
+
+            <div class="heart">💓</div>
+
+            <h1>¡Feliz cumpleaños, Ilyancito! 🥳💗</h1>
+
+            <p class="subtitle">
+                This project was created especially for you.
+            </p>
+
+            <div class="letter">
+
+                <p>
+                    Si pudiera guardar a una persona especial en un pequeño
+                    rincón de mi vida, definitivamente serías tú. ✨
+                </p>
+
+                <p>
+                    Con el tiempo te has vuelto mi personita favorita,
+                    alguien a quien quiero muchísimo y cuya presencia hace
+                    que mis días sean un poquito más bonitos. 🥹💗
+                </p>
+
+                <p>
+                    Quizá no siempre encuentre las palabras exactas para
+                    decirlo, pero quiero que sepas que te tengo un cariño
+                    enorme y que me alegra muchísimo haberte conocido. ❤️
+                </p>
+
+                <p>
+                    Espero que este cumpleaños sea tan bonito como tú,
+                    que sonrías muchísimo y que este nuevo año de tu vida
+                    esté lleno de momentos increíbles, de cosas que te
+                    hagan feliz. ✨
+                </p>
+
+                <p>
+                    Gracias por ser tú 🤍
+                </p>
+
+                <p>
+                    Te quiero muchísimo. 😙💗
+                </p>
+
+            </div>
+
+            <div class="music">
+
+                <h2>🎸 Our song</h2>
+
+                <p>
+                    Una canción que quería dejar aquí para ti:
+                </p>
+
+                <a
+                    class="song"
+                    href="https://open.spotify.com/search/Locos%20Le%C3%B3n%20Larregui"
+                    target="_blank">
+                    ▶ Escuchar “Locos” — León Larregui en Spotify
+                </a>
+
+            </div>
+
+            <div class="secret">
+
+                <h2>🎁 secret-file.md</h2>
+
+                <button onclick="showSecret()">
+                    🔓 Open secret
+                </button>
+
+                <div id="secretMessage" class="secret-message">
+                    Si llegaste hasta aquí... 💗<br><br>
+                    espero que nunca olvides lo especial que eres para mí. 🥹
+                    <br><br>
+                    Feliz cumpleaños, Ilyancito. ❤️✨
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Made with love • birthday-for-ilyancito • 2026 ✨
+    </div>
+
+</div>
+
+<script>
+function showSecret() {
+    document.getElementById("secretMessage").style.display = "block";
+}
+</script>
+
+</body>
+  </html>
